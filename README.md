@@ -12,7 +12,7 @@
 
 * **Plan Américas:** connect people through a prepaid card service to buy balance and talk via voIP. Download [Google Play](https://play.google.com/store/apps/details?id=com.planamericas&hl=es)
 
-* **Khub:** proof of concept for technical evaluation. Download [Google Play](https://play.google.com/store/apps/details?id=com.boa.khub). Repository in [GitHub](https://github.com/dgfigueroa29/khub)
+* **Khub:** proof of concept for technical evaluation. Download [Google Play](https://play.google.com/store/apps/details?id=com.boa.khub2). Repository in [GitHub](https://github.com/dgfigueroa29/khub)
 
 * **Inmoclick:** the best way to find your next home. Sale. Sale; Rental; Temporary rent; Barter. Sale, Rent, Temporary Rental, Exchange. [Google Play](https://play.google.com/store/apps/details?id=com.inmoclick&hl=es-419)
 
@@ -103,7 +103,7 @@
 * **Presenter:** portal to make presentations of publicity.
 
 <a name="CV"></a>
-## [CV](https://cvdf.page.link/nM9x) updateable link
+## [CV](https://drive.google.com/file/d/1Mv3YxbKWU_tDfcfhA4WRkGhhugYPgke_/view) updateable link
 
 <a name="here"></a>
 ## Versión en Español [aquí](https://github.com/dgfigueroa29/portfolio)
