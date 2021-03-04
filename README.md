@@ -1,5 +1,5 @@
 <a name="David Figueroa"></a>
-# Portfolio of [David Figueroa](https://www.linckard.com/davidfigueroa/0) (Boa Apps)
+# Portfolio of [David Figueroa](https://card.linkcard.app/davidfigueroa/0) (Boa Apps)
 ## Personal portfolio of work done:
 
 * **Creatuaplicacion:** app generator app settings based on configurable templates. Download [Google Play](https://play.google.com/store/apps/details?id=com.appandweb.creatuaplicacion.generic)
