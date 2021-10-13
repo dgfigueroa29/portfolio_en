@@ -2,6 +2,20 @@
 # Portfolio of [David Figueroa](https://card.linkcard.app/davidfigueroa/0) (Boa Apps)
 ## Personal portfolio of work done:
 
+* **Genesis Mobile:** Evolutionary maintenance of Kotlin app with MVVM, Koin, CLEAN (segmented by feature). He focuses on the cash and merchandise management of a well-known global security and flow transfer company.
+
+* **DemoScan:** POC on barcode and QR scan libraries. Zxing, Quickie and Scandit implementation.
+
+* **Inmoclick2:** Java anti-pattern app migration to Kotlin, MVVM, Koin, SOLID, CLEAN.
+
+* **Watchman:** Adjusts in tracking app for private security.
+
+* **Wtswrng:** adjutes in health app that generates presumptive diagnosis.
+
+* **Librology:** Social network for book club.
+
+* **Fixed:** app to survey addresses for digital services customers.
+
 * **Creatuaplicacion:** app generator app settings based on configurable templates. Download [Google Play](https://play.google.com/store/apps/details?id=com.appandweb.creatuaplicacion.generic)
 
 * **Audioguía oficial de Granada:** app settings for tourist information of the city of Granada, Spain. Download [Google Play](https://play.google.com/store/apps/details?id=com.patrimonioglobalgra.audioguiasgranada)
