@@ -2,6 +2,8 @@
 # Portfolio of [David Figueroa](https://card.linkcard.app/davidfigueroa/0?source=githuben) (Boa Apps)
 ## Personal portfolio of work done:
 
+* **Signage/Jacidi:** Maintenance and updating of private applications for Android and Google TV. The apps are aimed at hotel and gym chains to show content from their own platform.
+
 * **Muvin/BCR/AISA:** Maintenance and technological, architectural and modular migration of a platform for agricultural logistics management for pigs, cereals and fertilizers. 
 
 * **Ncuenta/NaranjaX:** Evolutionary maintenance of module for Onboarding, Biometrics and Signup in Kotlin app with compose. It was migrated from a virtual wallet to a fintech complying with the requirements of the BCRA. The team focuses on identity validation (KYC), request, upload and data normalization (AML) of the users of the financial company that owns the credit card brand. Download [Google Play](https://play.google.com/store/apps/details?id=com.tarjetanaranja.ncuenta)
