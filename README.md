@@ -1,6 +1,8 @@
 <a name="David Figueroa"></a>
-# Portfolio of [David Figueroa](https://card.linkcard.app/davidfigueroa/0?source=githuben) (Boa Apps)
+# Portfolio of [David Figueroa](https://davofigueroa.taplink.ws/) (Boa Apps)
 ## Personal portfolio of work done:
+
+* **Xsales/Presales:** Maintenance and updating of private Android applications with Jetpack Compose. The apps are focused on portfolio management, orders, routes, and deliveries of PepsiCo products to its distribution chain and partners.
 
 * **Signage/Jacidi:** Maintenance and updating of private applications for Android and Google TV. The apps are aimed at hotel and gym chains to show content from their own platform.
 
