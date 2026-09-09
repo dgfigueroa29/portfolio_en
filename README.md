@@ -1,133 +1,198 @@
-<a name="David Figueroa"></a>
-# Portfolio of [David Figueroa](https://davofigueroa.taplink.ws/) (Boa Apps)
-## Personal portfolio of work done:
+<div align="center">
 
-* **Xsales/Presales:** Maintenance and updating of private Android applications with Jetpack Compose. The apps are focused on portfolio management, orders, routes, and deliveries of PepsiCo products to its distribution chain and partners.
+# David Figueroa
 
-* **Signage/Jacidi:** Maintenance and updating of private applications for Android and Google TV. The apps are aimed at hotel and gym chains to show content from their own platform.
+**Android Tech Lead · 18 years building software that has to work where the signal fails**
 
-* **Muvin/BCR/AISA:** Maintenance and technological, architectural and modular migration of a platform for agricultural logistics management for pigs, cereals and fertilizers. 
+Kotlin · Jetpack Compose · KMP · Node.js · AWS · AI and agent adoption
 
-* **Ncuenta/NaranjaX:** Evolutionary maintenance of module for Onboarding, Biometrics and Signup in Kotlin app with compose. It was migrated from a virtual wallet to a fintech complying with the requirements of the BCRA. The team focuses on identity validation (KYC), request, upload and data normalization (AML) of the users of the financial company that owns the credit card brand. Download [Google Play](https://play.google.com/store/apps/details?id=com.tarjetanaranja.ncuenta)
+[faro.net.ar](https://faro.net.ar) · [LinkedIn](https://www.linkedin.com/in/davidfigueroa-mentor-faro-android-ia) · [CV](https://faro.net.ar/recursos) · [david@faro.net.ar](mailto:david@faro.net.ar)
 
-* **Genesis Mobile:** Evolutionary maintenance of Kotlin app with MVVM, Koin, CLEAN (segmented by feature). He focuses on the cash and merchandise management of a well-known global security and flow transfer company.
+</div>
 
-* **Dynamic:** Coming soon poc in Kotlin, compose, material3 for system design and use of BFF, SDUI.
+---
 
-* **DemoScan:** POC on barcode and QR scan libraries. Zxing, Quickie and Scandit implementation. Coming soon incorporation of GmsBarcodeScanning, Vision, TensorFlow.
+**70+ projects · 14 organizations · 4 regulated or critical domains**
+Fintech under BCRA rules · clinical software with CE, GDPR and CatSalut · cash-in-transit logistics · field operation without connectivity.
 
-* **Inmoclick2:** Java anti-pattern app migration to Kotlin, MVVM, Koin, SOLID, CLEAN.
+---
 
-* **Watchman:** adjustment in tracking app for private security.
+## How to read this portfolio
 
-* **Wtswrng:** adjustment in health app that generates presumptive diagnosis.
+Every entry states the **year** and the **type of engagement**. Most portfolios leave both out, and without them "70 projects" means nothing.
 
-* **Librology:** Social network for book club.
+| | Engagement |
+|---|---|
+| 🏢 | Work for an organization, as an employee or a full-time contractor |
+| 🔦 | FARO portfolio, my independent consultancy |
+| 🚀 | My own product |
 
-* **Fixed:** app to survey addresses for digital services customers.
+Where work came through an intermediary, both appear: **who contracted me** and **the end client**.
 
-* **Creatuaplicacion:** app generator app settings based on configurable templates. Download [Google Play](https://play.google.com/store/apps/details?id=com.appandweb.creatuaplicacion.generic)
+---
 
-* **Audioguía oficial de Granada:** app settings for tourist information of the city of Granada, Spain. Download [Google Play](https://play.google.com/store/apps/details?id=com.patrimonioglobalgra.audioguiasgranada)
+## Selected work
 
-* **Peep:** mobile encyclopedia settings. Download [Google Play](https://play.google.com/store/apps/details?id=com.appandweb.peep)
+### 🏢 Ncuenta · NaranjaX · 2021–2023
+**Regulated fintech · 15-person team**
 
-* **Padel Manager:** SDK sports social network annex. Download [Google Play](https://play.google.com/store/apps/details?id=com.padelmanager.padelmanager)
+A digital wallet had to become a fintech regulated by Argentina's Central Bank. That meant rebuilding Onboarding, identity verification (KYC) and anti-money-laundering (AML) without losing users along the way: every new regulatory requirement is one more step where someone drops off.
 
-* **Plan Américas:** connect people through a prepaid card service to buy balance and talk via voIP. Download [Google Play](https://play.google.com/store/apps/details?id=com.planamericas&hl=es)
+I led the CVU-to-CBU migration as Mobile Tech Lead, coordinating Android, Backend and iOS with Scrum of Scrum. **User conversion went from 70% to 90%.**
 
-* **Khub:** proof of concept for technical evaluation. Download [Google Play](https://play.google.com/store/apps/details?id=com.boa.khub2). Repository in [GitHub](https://github.com/dgfigueroa29/khub)
+We also added accessibility with TalkBack and its iOS equivalent for blind users, plus anti-fraud improvements with biometric validation.
 
-* **Inmoclick:** the best way to find your next home. Sale. Sale; Rental; Temporary rent; Barter. Sale, Rent, Temporary Rental, Exchange. [Google Play](https://play.google.com/store/apps/details?id=com.inmoclick&hl=es-419)
+[Google Play](https://play.google.com/store/apps/details?id=com.tarjetanaranja.ncuenta)
 
-* **Salto Inicial:** all the basketball of Mendoza in one place, results instantly notes and interviews. [Google Play](https://play.google.com/store/apps/details?id=com.boa.saltoinicial)
+---
 
-* **FotoSprint:** mobile catalog of products to buy and print photos from the cell phone. Download [Google Play](https://play.google.com/store/apps/details?id=app.rems.fotosprint)
+### 🏢 Xsales · Grupo Mariposa · 2024–present
+**Field sales for Bia, PepsiCo and associated brands · 9 countries · offline first**
 
-* **WeChain:** virtual rewards platform for projects that contribute to social changes. Repository in [GitHub](https://github.com/mendoza-com/wechain-androidapp-bicicleta)
+Two applications sharing one monorepo. **Asesor** is the sales rep's tool: pre-sales, credit management, portfolio, products, routes, loyalty and customer service. **Líder** is the supervisor's tool for running that sales team, and it is the product I have led technically since August 2026.
 
-* **MeCubro:** platform for contracting and managing insurance for merchandise transport and personal accidents.
+Sales reps working in areas without coverage, syncing whenever they find it. The entire design revolves around that constraint.
 
-* **Woman:** platform to accompany women with executive projection in gender issues in the workplace.
+**Monorepo consolidation.** It was a key result for the period. Estimated at two months, shipped in one. Together with the cross-functional team we defined the shared-module segregation criteria. **Líder was then built on top of that foundation** as the third app in the ecosystem: the architecture did not just unify what existed, it made a new product possible. The real cost was synchronizing in-flight releases, features and fixes across several instances; a mechanism to unify shared library versions without cross-app impact turned out to be the cheaper part.
 
-* **TraslatorChat:** alpha of chats for writing / reading in different languages at the same time.
+**Realm to Couchbase Lite migration.** Forced by SDK deprecation. We underestimated how similar the two would be: real work went into replication, scale, indexes, query optimization, drain and Room caching. Field operation was never interrupted.
 
-* **Chapi:** Alpha of social network of chats by groups.
+**AI adoption.** I brought Claude, Gemini and Microsoft Copilot into the team's development cycle.
 
-* **Crypto:** bitcoins mobile wallet alpha.
+---
 
-* **AjustAR:** Alpha of tool for local businesses.
+### 🏢 Muvin · Bolsa de Comercio de Rosario, through Alternativas Inteligentes (now SaiLO) · 2023–2024
+**Agribusiness · leading 10 people**
 
-* **Cabbo:** social network and navigation of boat users.
+An agricultural logistics platform covering swine, grain and fertilizers, with several verticals served by one team.
 
-* **Conectate:** small social network to gather companies, professionals, government and stakeholders on Renewable Energy and Energy Efficiency. App and Api.
+The problem wasn't technical at first: every release dragged **up to three hotfixes** and the team lost half a sprint to rework. People were assigned to two and three projects at once, without focus or priority.
 
-* **Infratrack:** services for mobile app that traffic agents use to carry out manual traffic violations in Lanús and Ezeiza. AWS Lambda for printing notifications and citations for traffic infractions.
+I reorganized the area into delivery cells with per-project focus, introduced Git Flow, release trains and Scrum, and made QA the owner of validation. **Releases started shipping clean**, first per sprint and later monthly. The changes began in the second half of my first month.
 
-* **CoberMed:** beta to connect affiliates with social work.
+In parallel I led the architectural and modular migration of the platform for performance, observability and quality, and started the move to Node.js while training the team.
 
-* **Ethic Compass:** internal use of companies to control conflicts of interest, making complaints, surveys, private messaging, publicizing the company's policies.
+`Angular` `PWA` `micro frontends` `PHP` `Node.js` `MySQL` `SSO` `SAML`
 
-* **BPN:** search promotions, branches, cashiers and homebanking.
+---
 
-* **BK:** internal system for the management of applications for final bonds for capital goods benefits.
+### 🔦 wtswrng · Mangrana Ventures and Setfile, Barcelona · 2021–2024
+**Clinical software in production**
 
-* **BA Agentes:** mobile system of traffic infractions management for the Government of the Autonomous City of Buenos Aires, Argentina.
+A health app that generates presumptive diagnosis, in use at private clinics in Barcelona. **CE, GDPR and CatSalut** requirements met.
 
-* **Paradas de Colectivos:** mobile system for surveying public transport stops in the Autonomous City of Buenos Aires, Argentina.
+Accessibility was not an optional layer: the interface is entirely illustrated, **without words, gender, language or age**, so it works with whichever patient is in front of it.
 
-* **BA Móvil:** app to view the status of the transit, flights and get driving directions within Autonomous City of Buenos Aires, Argentina.
+They first knew me as a CloudX client, then continued the account directly with me for three years.
 
-* **XRPSalesWork:** mobile catalog of products, customer management and orders. It allows to indicate routes to sellers and visits, to manage collections.
+---
 
-* **Tarjeta Nevada:** migration from PHP 5 to 7, Codeigniter 2 to 3 and laravel 4 to 5. The project consists of three existing sites: a public one, a secure one and a content management panel.
+### 🏢 CloudX · 2020–2021
+**Infrastructure cost reduction**
 
-* **SMN:** app for climate visualization and forecasting with information provided by the National Meteorological Service of Argentina.
+**−80% cloud cost on AWS.** Three fronts: decoupling oversized resources, aligning scale to the product's real demand, and using free tiers and startup plans. The fixed remainder after all adjustments settled at 20%.
 
-* **Sage:** app to conduct customer satisfaction interviews.
+I also implemented SDUI and BFF with AWS Lambda, which allowed UI updates without redeployment.
 
-* **Vloom:** app and mass messaging platform through sms and push notifications.
+Products: Librology, a readers and authors social network; and symptom checkers.
 
-* **Goody:** app and social network to connect sportsmen.
+---
 
-* **mendobytes:** beta portal for e-commerce of computer inputs for local commerce.
+### 🔦 BA Agentes, BA Móvil and Paradas de Colectivos · City of Buenos Aires Government, through Kwan Mobile · 2016–2019
+**Civic tech at city scale**
 
-* **FácilMúsica:** private app for inventory management.
+Three systems for the Government of the City of Buenos Aires: traffic violation management for officers on the street, public transport stop surveying, and a citizen-facing view of traffic status, flights and driving directions.
 
-* **AdecoAgro:** private app for access control to rural fields.
+Almost three years of sustained work with the end client through the contracting party.
 
-* **El Sol Online:** web journal.
+---
 
-* **4coronas:** private apps for managing guests to special events.
+### 🏢 Genesis Mobile · Prosegur, through Tecsol Group · 2021
+**Cash-in-transit logistics · Europe and Latin America**
 
-* **RentAtablet:** private apps for managing guests to special events.
+Cash and goods handling apps with heavy barcode and QR scanning in street operation.
 
-* **FriendBall:** football social network.
+**−30% scanning time**, through a library change, improvements to internal components, and adjustments to how the app communicated with the other devices in the flow. **−25% server communication time.**
 
-* **ASEGH:** private app for hospital management.
+The library comparison behind that number is published as a POC: see **DemoScan**, now evolved into WhyScan.
 
-* **SGRRHH:** HR management portal of the company and associated service stations of RedMercosur.
+---
 
-* **SGDOC:** internal documentation management portal.
+## 🚀 Own products · FARO
 
-* **SGOP:** internal incident management portal.
+| Product | Status | What it validates |
+|---|---|---|
+| **WhyScan** | Play Store, tentatively November 2026 | Compose Multiplatform, offline first, accessibility and AI agent assistance. Evolves the DemoScan POC across Zxing, Quickie and Scandit |
+| **Dynamic** | POC in progress | Kotlin, Compose and Material3 with BFF and SDUI for a design system |
+| **Salto Inicial** | [Google Play](https://play.google.com/store/apps/details?id=com.boa.saltoinicial) | All of Mendoza's basketball: live results, reports and interviews |
+| **faro.net.ar** | In production | My own site, built with Astro. Private source |
 
-* **DNI:** private time control portal.
+---
 
-* **PCG:** internal system for management of interventions and facilities, control management and budgets for Pan American Energy LLC.
+## Sustained capabilities
 
-* **Comproaccesorios:** beta portal for accessories e-commerce for Ford Meschini dealership.
+These are not technologies I learned once. They are problems I have kept solving across different organizations over the years.
 
-* **ERP:** customized for Dil Brands.
+**Operation without connectivity** — Adecoagro 2013, rural estate access control with QR scanning and deferred sync · Prosegur 2021, scanning in cash-in-transit logistics · Grupo Mariposa 2024, field sales with Couchbase Lite · WhyScan 2026.
 
-* **Empretur:** package tour management.
+**Real accessibility** — wtswrng, an interface that does not depend on language or literacy · NaranjaX, TalkBack and its iOS equivalent · WhyScan, as an explicit product goal.
 
-* **IVD:** API for inventory management.
+**Regulatory compliance** — BCRA rules in Argentine fintech · CE, GDPR and CatSalut in Spanish clinical software.
 
-* **Presenter:** portal to make presentations of publicity.
+**AI adoption with method** — executable specifications, MCP agents and output verification. Comparing estimates with and without assistance across three organizations, work shipped up to 40% earlier. It holds with cheaper models: the gain comes from the method, not from token spend.
 
-<a name="CV"></a>
-## [CV](https://drive.google.com/file/d/1Mv3YxbKWU_tDfcfhA4WRkGhhugYPgke_/view) updateable link
+---
 
-<a name="here"></a>
-## Versión en Español [aquí](https://github.com/dgfigueroa29/portfolio)
+## Full catalogue
+
+### 🏢 Work for organizations
+
+| Years | Organization | Projects |
+|---|---|---|
+| 2024– | Grupo Mariposa | Asesor · pre-sales, credit, portfolio, routes and loyalty for sales reps; Líder · sales team supervision. Bia, PepsiCo and associated brands across 9 countries |
+| 2023–2024 | Alternativas Inteligentes (now SaiLO) | Muvin · Bolsa de Comercio de Rosario |
+| 2021–2023 | NaranjaX | Ncuenta |
+| 2021 | Prosegur, through Tecsol Group | Genesis Mobile |
+| 2020–2021 | CloudX | Librology · readers club social network; symptom checkers; Watchman · tracking app for private security |
+| 2020 | GlobalLogic | Fixed · surveying and pre-sales for Claro Argentina |
+| 2019–2020 | Winecta | Padel Manager, Official Granada Audio Guide, Peep, Creatuaplicacion, school management |
+| 2018–2019 | FTL | Infratrack · traffic violations in Lanús and Ezeiza |
+| 2017–2018 | Streambe | BPN · promotions, branches, ATMs and home banking; Ethic Compass · conflicts of interest, whistleblowing and surveys; BK · capital goods bond application management; CoberMed · connecting members with their health provider; base app generator portal |
+| 2015–2017 | Tween, later Vloom | Vloom · bulk SMS and push notification platform; Tarjeta Naranja; Tarjeta Nevada · migration from PHP 5 to 7, CodeIgniter 2 to 3 and Laravel 4 to 5 across a public site, a secure site and a content panel; Crypto · mobile bitcoin wallet |
+| 2013–2015 | Aconcagua Software Factory | Adecoagro, PCG · Pan American Energy, Sanatorio Finochietto, FriendBall, 4coronas, FácilMúsica |
+| 2012–2013 | Rumaos | SGRRHH · RedMercosur, SGDOC, SGOP, DNI, ASEGH · hospital management |
+| 2009–2012 | Aconcagua Software Factory | Construpages, El Sol Online, Empretur, mendobytes |
+| 2009 | BIG SA | Comproaccesorios · e-commerce for the Ford Meschini dealership; bus ticket and tourism portal |
+| 2008–2009 | MAIN Sistemas | Custom ERP for Dil Brands; Presenter · advertising presentation portal; IVD · inventory management API; custom websites |
+
+### 🔦 FARO portfolio
+
+| Years | Client | Project |
+|---|---|---|
+| 2021–2024 | wtswrng · Barcelona | Clinical app for presumptive diagnosis |
+| 2024 | Jacidi · Barcelona | Digital signage on Android TV and Chromecast for hotel and gym chains |
+| 2023– | FUSAP → QuintoAndar | Technical mentoring for engineering teams |
+| 2019 | Me cubro | MeCubro · APIs for cargo transport and personal accident insurance |
+| 2019 | Inmoclick | Inmoclick and Inmoclick2 · proptech, Java to Kotlin migration with MVVM and Clean |
+| 2019 | Tuten IT | Cabbo · social network and navigation for boat users |
+| 2019 | That Day in London | Field pollster and volunteer systems |
+| 2018–2019 | iVelopment | Conectate · energy efficiency and renewables |
+| 2018–2019 | Ubykuo | Plan Américas · VoIP calling with a prepaid card |
+| 2017–2018 | WeChain, for Tween | Cryptocurrency rewards with blockchain on Android |
+| 2017–2018 | XRP | XRPSalesWork · catalogue, orders, routes and collections for field sales reps |
+| 2017 | FotoSprint | Photo product catalogue with a partner store network |
+| 2016–2019 | Kwan Mobile → City of Buenos Aires | BA Agentes, BA Móvil, Paradas de Colectivos |
+| 2016–2017 | Viewpoints | Argentina's National Weather Service · weather visualization and forecasting; tourism and marketing apps |
+| 2016 | Software Factory | Sage · app for field interviewers |
+| 2014–2015 | Goddy | Goody · social network connecting athletes with related products |
+| various | Own builds and prototypes | RentAtablet · event guest management; Woman · supporting women with executive careers; Chapi, AjustAR and TraslatorChat · alphas |
+
+---
+
+## Let's work together
+
+I am open to remote or hybrid opportunities from Mendoza, Argentina, and to consulting engagements through FARO.
+
+**[david@faro.net.ar](mailto:david@faro.net.ar)** · **[faro.net.ar](https://faro.net.ar)** · **[LinkedIn](https://www.linkedin.com/in/davidfigueroa-mentor-faro-android-ia)**
+
+<div align="right"><sub><a href="https://github.com/dgfigueroa29/portfolio">Versión en español</a></sub></div>
