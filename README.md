@@ -6,7 +6,7 @@
 
 Kotlin · Jetpack Compose · KMP · Node.js · AWS · AI and agent adoption
 
-[faro.net.ar](https://faro.net.ar) · [LinkedIn](https://www.linkedin.com/in/davidfigueroa-mentor-faro-android-ia) · [CV](https://faro.net.ar/recursos) · [david@faro.net.ar](mailto:david@faro.net.ar)
+[faro.net.ar](https://faro.net.ar) · [LinkedIn](https://www.linkedin.com/in/david-figueroa-mentor-faro-android-ia) · [CV](https://faro.net.ar/recursos) · [david@faro.net.ar](mailto:david@faro.net.ar)
 
 </div>
 
@@ -46,14 +46,16 @@ We also added accessibility with TalkBack and its iOS equivalent for blind users
 
 ---
 
-### 🏢 Xsales · Grupo Mariposa · 2024–present
+### 🏢 Xsales · Apex Global Mobility | Grupo Mariposa · 2024–present
 **Field sales for Bia, PepsiCo and associated brands · 9 countries · offline first**
 
 Two applications sharing one monorepo. **Asesor** is the sales rep's tool: pre-sales, credit management, portfolio, products, routes, loyalty and customer service. **Líder** is the supervisor's tool for running that sales team, and it is the product I have led technically since August 2026.
 
+**Roadmap delivery above 85% per quarter**, a level the team had not sustained before, with field operation never interrupted.
+
 Sales reps working in areas without coverage, syncing whenever they find it. The entire design revolves around that constraint.
 
-**Monorepo consolidation.** It was a key result for the period. Estimated at two months, shipped in one. Together with the cross-functional team we defined the shared-module segregation criteria. **Líder was then built on top of that foundation** as the third app in the ecosystem: the architecture did not just unify what existed, it made a new product possible. The real cost was synchronizing in-flight releases, features and fixes across several instances; a mechanism to unify shared library versions without cross-app impact turned out to be the cheaper part.
+**Monorepo consolidation.** It was a key result for the period. Estimated at two months, shipped in one. Together with the cross-functional team we defined the shared-module segregation criteria. **Líder was then built on top of that foundation** as the third app in the ecosystem: the architecture did not just unify what existed, it made a new product possible. The real cost was synchronizing in-flight releases, features and fixes across several instances; the cheaper fix was a mechanism to unify shared library versions without cross-app impact.
 
 **Realm to Couchbase Lite migration.** Forced by SDK deprecation. We underestimated how similar the two would be: real work went into replication, scale, indexes, query optimization, drain and Room caching. Field operation was never interrupted.
 
@@ -122,7 +124,7 @@ The library comparison behind that number is published as a POC: see **DemoScan*
 
 | Product | Status | What it validates |
 |---|---|---|
-| **WhyScan** | Play Store, tentatively November 2026 | Compose Multiplatform, offline first, accessibility and AI agent assistance. Evolves the DemoScan POC across Zxing, Quickie and Scandit |
+| **WhyScan** | [Play Store](https://play.google.com/store/apps/details?id=ar.net.faro.whyscan) · released | Compose Multiplatform, offline first, accessibility and AI agent assistance. No account, no tracking, no telemetry. Evolves the DemoScan POC across Zxing, Quickie and Scandit |
 | **Dynamic** | POC in progress | Kotlin, Compose and Material3 with BFF and SDUI for a design system |
 | **Salto Inicial** | [Google Play](https://play.google.com/store/apps/details?id=com.boa.saltoinicial) | All of Mendoza's basketball: live results, reports and interviews |
 | **faro.net.ar** | In production | My own site, built with Astro. Private source |
@@ -133,13 +135,13 @@ The library comparison behind that number is published as a POC: see **DemoScan*
 
 These are not technologies I learned once. They are problems I have kept solving across different organizations over the years.
 
-**Operation without connectivity** — Adecoagro 2013, rural estate access control with QR scanning and deferred sync · Prosegur 2021, scanning in cash-in-transit logistics · Grupo Mariposa 2024, field sales with Couchbase Lite · WhyScan 2026.
+**Operation without connectivity** — Adecoagro 2013, rural estate access control with QR scanning and deferred sync · Prosegur 2021, scanning in cash-in-transit logistics · Apex Global Mobility | Grupo Mariposa 2024, field sales with Couchbase Lite · WhyScan 2026.
 
 **Real accessibility** — wtswrng, an interface that does not depend on language or literacy · NaranjaX, TalkBack and its iOS equivalent · WhyScan, as an explicit product goal.
 
 **Regulatory compliance** — BCRA rules in Argentine fintech · CE, GDPR and CatSalut in Spanish clinical software.
 
-**AI adoption with method** — executable specifications, MCP agents and output verification. Comparing estimates with and without assistance across three organizations, work shipped up to 40% earlier. It holds with cheaper models: the gain comes from the method, not from token spend.
+**AI adoption with method** — executable specifications, MCP agents and output verification. Comparing delivery estimates with and without assistance across three organizations, work shipped up to 40% earlier. That figure comes from estimates, not measured throughput. It holds with cheaper models: the gain comes from the method, not from token spend.
 
 ---
 
@@ -149,7 +151,7 @@ These are not technologies I learned once. They are problems I have kept solving
 
 | Years | Organization | Projects |
 |---|---|---|
-| 2024– | Grupo Mariposa | Asesor · pre-sales, credit, portfolio, routes and loyalty for sales reps; Líder · sales team supervision. Bia, PepsiCo and associated brands across 9 countries |
+| 2024– | Apex Global Mobility \| Grupo Mariposa | Asesor · pre-sales, credit, portfolio, routes and loyalty for sales reps; Líder · sales team supervision. Bia, PepsiCo and associated brands across 9 countries |
 | 2023–2024 | Alternativas Inteligentes (now SaiLO) | Muvin · Bolsa de Comercio de Rosario |
 | 2021–2023 | NaranjaX | Ncuenta |
 | 2021 | Prosegur, through Tecsol Group | Genesis Mobile |
@@ -189,10 +191,21 @@ These are not technologies I learned once. They are problems I have kept solving
 
 ---
 
+## Where I write
+
+The criteria I use to choose architecture and to evaluate code are public:
+
+- [Android architecture 2026: patterns that actually hold](https://faro.net.ar/blog/arquitectura-android-2026)
+- [How to evaluate code quality as a technical lead](https://faro.net.ar/blog/calidad-codigo-lideres-tecnicos)
+
+Services and case work at [faro.net.ar/portfolio](https://faro.net.ar/portfolio); CV and resources at [faro.net.ar/recursos](https://faro.net.ar/recursos).
+
+---
+
 ## Let's work together
 
 I am open to remote or hybrid opportunities from Mendoza, Argentina, and to consulting engagements through FARO.
 
-**[david@faro.net.ar](mailto:david@faro.net.ar)** · **[faro.net.ar](https://faro.net.ar)** · **[LinkedIn](https://www.linkedin.com/in/davidfigueroa-mentor-faro-android-ia)**
+**[david@faro.net.ar](mailto:david@faro.net.ar)** · **[faro.net.ar](https://faro.net.ar)** · **[LinkedIn](https://www.linkedin.com/in/david-figueroa-mentor-faro-android-ia)**
 
-<div align="right"><sub><a href="https://github.com/dgfigueroa29/portfolio">Versión en español</a></sub></div>
+<div align="right"><sub>Last reviewed: 2026-11 · <a href="https://github.com/dgfigueroa29/portfolio">Versión en español</a></sub></div>
